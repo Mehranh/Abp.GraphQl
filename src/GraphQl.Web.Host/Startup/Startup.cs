@@ -41,7 +41,7 @@ namespace GraphQl.Web.Host.Startup
             services.AddScoped(x => new GraphQLClient(_appConfiguration["GraphQLURI"]));
             services.AddTransient<IOwnerConsumer, OwnerConsumer>();
             services.AddScoped<IDependencyResolver>(s => new FuncDependencyResolver(s.GetRequiredService));
-            services.AddScoped<ReserveAppSchema>();
+            services.AddScoped<UserAppSchema>();
             services.AddGraphQL(x =>
                 {
                     x.ExposeExceptions = true; //set true only in development mode. make it switchable.
@@ -105,7 +105,7 @@ namespace GraphQl.Web.Host.Startup
         {
 
     
-            app.UseGraphQL<ReserveAppSchema>();
+            app.UseGraphQL<UserAppSchema>();
             app.UseGraphQLPlayground(new GraphQLPlaygroundOptions()
             {
                 

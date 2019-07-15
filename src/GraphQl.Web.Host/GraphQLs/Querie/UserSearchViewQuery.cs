@@ -5,13 +5,13 @@ using GraphQl.Authorization.Users;
 using GraphQl.Web.Host.GraphQLs.Types;
 using GraphQL.Types;
 
-namespace GraphQl.Web.Host.GraphQLs.Querie
+namespace GraphQl.Web.Host.GraphQLs.Query
 {
-    public class ReserveSearchViewQuery : ObjectGraphType
+    public class UserSearchViewQuery : ObjectGraphType
     {
         private readonly IRepository<User,long> reserveRepository;
 
-        public   ReserveSearchViewQuery(IRepository<User,long> repository)
+        public   UserSearchViewQuery(IRepository<User,long> repository)
         {
             reserveRepository = repository;
 
