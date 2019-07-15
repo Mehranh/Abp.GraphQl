@@ -1,0 +1,600 @@
+DEBUG 2019-07-15 13:48:44,872 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-07-15 13:48:44,983 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-07-15 13:48:45,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GraphQl.Web.Host.Startup.GraphQlWebHostModule, GraphQl.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:48:45,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GraphQl.GraphQlWebCoreModule, GraphQl.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:48:45,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GraphQl.GraphQlApplicationModule, GraphQl.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:48:45,070 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GraphQl.GraphQlCoreModule, GraphQl.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:48:45,070 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:48:45,071 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:48:45,071 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:48:45,071 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:48:45,071 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GraphQl.EntityFrameworkCore.GraphQlEntityFrameworkModule, GraphQl.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:48:45,072 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:48:45,072 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:48:45,072 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:48:45,072 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:48:45,073 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:48:45,073 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:48:45,075 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-07-15 13:48:45,202 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-15 13:48:45,203 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-15 13:48:45,203 [1    ] o.Configuration.LanguageManagementConfig - Converted GraphQl (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-15 13:48:45,203 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-15 13:48:45,829 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: GraphQl.EntityFrameworkCore.GraphQlDbContext, GraphQl.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:48:47,085 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-07-15 13:48:47,135 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-07-15 13:48:47,153 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-07-15 13:48:47,163 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: GraphQl
+DEBUG 2019-07-15 13:48:47,172 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-07-15 13:48:47,365 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-07-15 13:48:47,412 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-07-15 13:48:47,412 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-07-15 13:48:47,417 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Users.Dto.CreateUserDto
+DEBUG 2019-07-15 13:48:47,418 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Users.Dto.UserDto
+DEBUG 2019-07-15 13:48:47,419 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-07-15 13:48:47,419 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-07-15 13:48:47,419 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Roles.Dto.CreateRoleDto
+DEBUG 2019-07-15 13:48:47,419 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Roles.Dto.PermissionDto
+DEBUG 2019-07-15 13:48:47,419 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Roles.Dto.RoleDto
+DEBUG 2019-07-15 13:48:47,420 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-07-15 13:48:47,420 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.MultiTenancy.Dto.TenantDto
+INFO  2019-07-15 13:48:51,947 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-07-15 13:48:57,506 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action GraphQl.Web.Host.Controllers.HomeController.Index (GraphQl.Web.Host)
+INFO  2019-07-15 13:48:58,939 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method GraphQl.Web.Host.Controllers.HomeController.Index (GraphQl.Web.Host) - Validation state: Valid
+INFO  2019-07-15 13:48:58,948 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method GraphQl.Web.Host.Controllers.HomeController.Index (GraphQl.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 1.7496ms.
+INFO  2019-07-15 13:48:59,152 [7    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-07-15 13:48:59,164 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action GraphQl.Web.Host.Controllers.HomeController.Index (GraphQl.Web.Host) in 1651.8433ms
+INFO  2019-07-15 13:48:59,208 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7264.1589ms 302 
+INFO  2019-07-15 13:48:59,216 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-07-15 13:48:59,243 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.6286ms 200 text/html
+INFO  2019-07-15 13:48:59,693 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-07-15 13:48:59,930 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 236.7119ms 200 application/json;charset=utf-8
+INFO  2019-07-15 13:50:08,034 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/GraphQL  
+INFO  2019-07-15 13:50:08,069 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "get", controller = "GraphQL", area = ""}. Executing action GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get (GraphQl.Web.Host)
+INFO  2019-07-15 13:50:08,987 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get (GraphQl.Web.Host) - Validation state: Valid
+INFO  2019-07-15 13:50:09,090 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/graphql application/json; charset=utf-8 209
+ERROR 2019-07-15 13:50:09,456 [7    ] nsports.AspNetCore.GraphQLHttpMiddleware - GraphQL execution error(s): GraphQL.ExecutionError: ComponentActivator: could not instantiate GraphQl.Web.Host.GraphQLs.Types.UserSearchViewType ---> Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate GraphQl.Web.Host.GraphQLs.Types.UserSearchViewType ---> System.ArgumentException: The GraphQL type for Field: 'TenantId' on parent type: 'UserSearchViewType' could not be derived implicitly. 
+ ---> System.ArgumentOutOfRangeException: Explicitly nullable type: Nullable<Int32> cannot be coerced to a non nullable GraphQL type. 
+
+Parameter name: isNullable
+   at GraphQL.TypeExtensions.GetGraphTypeFromType(Type type, Boolean isNullable)
+   at GraphQL.Types.ComplexGraphType`1.Field[TProperty](String name, Expression`1 expression, Boolean nullable, Type type)
+   --- End of inner exception stack trace ---
+   at GraphQL.Types.ComplexGraphType`1.Field[TProperty](String name, Expression`1 expression, Boolean nullable, Type type)
+   at GraphQL.Types.ComplexGraphType`1.Field[TProperty](Expression`1 expression, Boolean nullable, Type type)
+   at GraphQl.Web.Host.GraphQLs.Types.UserSearchViewType..ctor() in D:\Source\Repos\GraphQl\4.6.0\aspnet-core\src\GraphQl.Web.Host\GraphQLs\Types\UserSearchViewType.cs:line 13
+   at lambda_method(Closure , Object[] )
+   at Castle.Core.Internal.ReflectionUtil.Instantiate(ConstructorInfo ctor, Object[] ctorArgs)
+   at Castle.Core.Internal.ReflectionUtil.Instantiate[TBase](Type subtypeofTBase, Object[] ctorArgs)
+   at Castle.Core.Internal.ReflectionUtil.CreateInstance[TBase](Type subtypeofTBase, Object[] ctorArgs)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- End of inner exception stack trace ---
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.ResolveInstanceOrNull(Type serviceType, Boolean isOptional) in D:\Github\castle-windsor-ms-adapter\src\Castle.Windsor.MsDependencyInjection\ScopedWindsorServiceProvider.cs:line 77
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetServiceInternal(Type serviceType, Boolean isOptional) in D:\Github\castle-windsor-ms-adapter\src\Castle.Windsor.MsDependencyInjection\ScopedWindsorServiceProvider.cs:line 55
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetRequiredService(Type serviceType) in D:\Github\castle-windsor-ms-adapter\src\Castle.Windsor.MsDependencyInjection\ScopedWindsorServiceProvider.cs:line 38
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at GraphQL.FuncDependencyResolver.Resolve(Type type)
+   at GraphQL.Types.Schema.<CreateTypesLookup>b__56_2(Type type)
+   at GraphQL.Types.GraphTypesLookup.AddTypeIfNotRegistered(Type type, TypeCollectionContext context)
+   at GraphQL.Types.GraphTypesLookup.HandleField(Type parentType, FieldType field, TypeCollectionContext context)
+   at GraphQL.Types.GraphTypesLookup.AddType(IGraphType type, TypeCollectionContext context)
+   at GraphQL.Types.GraphTypesLookup.Create(IEnumerable`1 types, IEnumerable`1 directives, Func`2 resolveType, IFieldNameConverter fieldNameConverter)
+   at GraphQL.Types.Schema.CreateTypesLookup()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at GraphQL.Types.Schema.get_AllTypes()
+   at GraphQL.Instrumentation.FieldMiddlewareBuilder.ApplyTo(ISchema schema)
+   at GraphQL.DocumentExecuter.ExecuteAsync(ExecutionOptions options)
+   --- End of inner exception stack trace ---
+INFO  2019-07-15 13:50:09,475 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 385.3983ms 200 application/json
+ERROR 2019-07-15 13:50:09,789 [7    ] Mvc.ExceptionHandling.AbpExceptionFilter - Cannot perform runtime binding on a null reference
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at GraphQL.Common.Response.GraphQLResponse.GetDataFieldAs[Type](String fieldName)
+   at GraphQl.Web.Host.GraphQLs.consumer.OwnerConsumer.GetAllItems() in D:\Source\Repos\GraphQl\4.6.0\aspnet-core\src\GraphQl.Web.Host\GraphQLs\consumer\OwnerConsumer.cs:line 30
+   at GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get() in D:\Source\Repos\GraphQl\4.6.0\aspnet-core\src\GraphQl.Web.Host\GraphQLs\Controller\GraphQLController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-07-15 13:50:09,797 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get (GraphQl.Web.Host) in 1726.0253ms
+ERROR 2019-07-15 13:50:10,058 [7    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLO90LPQLIRD", Request id "0HLO90LPQLIRD:00000004": An unhandled exception was thrown by the application.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at GraphQL.Common.Response.GraphQLResponse.GetDataFieldAs[Type](String fieldName)
+   at GraphQl.Web.Host.GraphQLs.consumer.OwnerConsumer.GetAllItems() in D:\Source\Repos\GraphQl\4.6.0\aspnet-core\src\GraphQl.Web.Host\GraphQLs\consumer\OwnerConsumer.cs:line 30
+   at GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get() in D:\Source\Repos\GraphQl\4.6.0\aspnet-core\src\GraphQl.Web.Host\GraphQLs\Controller\GraphQLController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Security\AbpSecurityHeadersMiddleware.cs:line 26
+   at GraphQL.Server.Transports.AspNetCore.GraphQLHttpMiddleware`1.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+INFO  2019-07-15 13:50:10,069 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2041.4916ms 500 
+INFO  2019-07-15 13:50:38,310 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/GraphQL  
+INFO  2019-07-15 13:50:38,323 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "get", controller = "GraphQL", area = ""}. Executing action GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get (GraphQl.Web.Host)
+INFO  2019-07-15 13:50:38,327 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get (GraphQl.Web.Host) - Validation state: Valid
+INFO  2019-07-15 13:50:38,342 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/graphql application/json; charset=utf-8 209
+ERROR 2019-07-15 13:50:38,425 [23   ] nsports.AspNetCore.GraphQLHttpMiddleware - GraphQL execution error(s): GraphQL.ExecutionError: ComponentActivator: could not instantiate GraphQl.Web.Host.GraphQLs.Types.UserSearchViewType ---> Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate GraphQl.Web.Host.GraphQLs.Types.UserSearchViewType ---> System.ArgumentException: The GraphQL type for Field: 'TenantId' on parent type: 'UserSearchViewType' could not be derived implicitly. 
+ ---> System.ArgumentOutOfRangeException: Explicitly nullable type: Nullable<Int32> cannot be coerced to a non nullable GraphQL type. 
+
+Parameter name: isNullable
+   at GraphQL.TypeExtensions.GetGraphTypeFromType(Type type, Boolean isNullable)
+   at GraphQL.Types.ComplexGraphType`1.Field[TProperty](String name, Expression`1 expression, Boolean nullable, Type type)
+   --- End of inner exception stack trace ---
+   at GraphQL.Types.ComplexGraphType`1.Field[TProperty](String name, Expression`1 expression, Boolean nullable, Type type)
+   at GraphQL.Types.ComplexGraphType`1.Field[TProperty](Expression`1 expression, Boolean nullable, Type type)
+   at GraphQl.Web.Host.GraphQLs.Types.UserSearchViewType..ctor() in D:\Source\Repos\GraphQl\4.6.0\aspnet-core\src\GraphQl.Web.Host\GraphQLs\Types\UserSearchViewType.cs:line 13
+   at lambda_method(Closure , Object[] )
+   at Castle.Core.Internal.ReflectionUtil.Instantiate(ConstructorInfo ctor, Object[] ctorArgs)
+   at Castle.Core.Internal.ReflectionUtil.Instantiate[TBase](Type subtypeofTBase, Object[] ctorArgs)
+   at Castle.Core.Internal.ReflectionUtil.CreateInstance[TBase](Type subtypeofTBase, Object[] ctorArgs)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- End of inner exception stack trace ---
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.SingletonLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   at Castle.Windsor.WindsorContainer.Resolve(Type service)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.ResolveInstanceOrNull(Type serviceType, Boolean isOptional) in D:\Github\castle-windsor-ms-adapter\src\Castle.Windsor.MsDependencyInjection\ScopedWindsorServiceProvider.cs:line 77
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetServiceInternal(Type serviceType, Boolean isOptional) in D:\Github\castle-windsor-ms-adapter\src\Castle.Windsor.MsDependencyInjection\ScopedWindsorServiceProvider.cs:line 55
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetRequiredService(Type serviceType) in D:\Github\castle-windsor-ms-adapter\src\Castle.Windsor.MsDependencyInjection\ScopedWindsorServiceProvider.cs:line 38
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at GraphQL.FuncDependencyResolver.Resolve(Type type)
+   at GraphQL.Types.Schema.<CreateTypesLookup>b__56_2(Type type)
+   at GraphQL.Types.GraphTypesLookup.AddTypeIfNotRegistered(Type type, TypeCollectionContext context)
+   at GraphQL.Types.GraphTypesLookup.HandleField(Type parentType, FieldType field, TypeCollectionContext context)
+   at GraphQL.Types.GraphTypesLookup.AddType(IGraphType type, TypeCollectionContext context)
+   at GraphQL.Types.GraphTypesLookup.Create(IEnumerable`1 types, IEnumerable`1 directives, Func`2 resolveType, IFieldNameConverter fieldNameConverter)
+   at GraphQL.Types.Schema.CreateTypesLookup()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at GraphQL.Types.Schema.get_AllTypes()
+   at GraphQL.Instrumentation.FieldMiddlewareBuilder.ApplyTo(ISchema schema)
+   at GraphQL.DocumentExecuter.ExecuteAsync(ExecutionOptions options)
+   --- End of inner exception stack trace ---
+INFO  2019-07-15 13:50:38,434 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 90.2251ms 200 application/json
+ERROR 2019-07-15 13:50:38,537 [23   ] Mvc.ExceptionHandling.AbpExceptionFilter - Cannot perform runtime binding on a null reference
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at GraphQL.Common.Response.GraphQLResponse.GetDataFieldAs[Type](String fieldName)
+   at GraphQl.Web.Host.GraphQLs.consumer.OwnerConsumer.GetAllItems() in D:\Source\Repos\GraphQl\4.6.0\aspnet-core\src\GraphQl.Web.Host\GraphQLs\consumer\OwnerConsumer.cs:line 30
+   at GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get() in D:\Source\Repos\GraphQl\4.6.0\aspnet-core\src\GraphQl.Web.Host\GraphQLs\Controller\GraphQLController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-07-15 13:50:38,542 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get (GraphQl.Web.Host) in 216.1408ms
+ERROR 2019-07-15 13:50:38,654 [23   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLO90LPQLIRD", Request id "0HLO90LPQLIRD:00000005": An unhandled exception was thrown by the application.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at GraphQL.Common.Response.GraphQLResponse.GetDataFieldAs[Type](String fieldName)
+   at GraphQl.Web.Host.GraphQLs.consumer.OwnerConsumer.GetAllItems() in D:\Source\Repos\GraphQl\4.6.0\aspnet-core\src\GraphQl.Web.Host\GraphQLs\consumer\OwnerConsumer.cs:line 30
+   at GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get() in D:\Source\Repos\GraphQl\4.6.0\aspnet-core\src\GraphQl.Web.Host\GraphQLs\Controller\GraphQLController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Security\AbpSecurityHeadersMiddleware.cs:line 26
+   at GraphQL.Server.Transports.AspNetCore.GraphQLHttpMiddleware`1.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+INFO  2019-07-15 13:50:38,661 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 348.6707ms 500 
+DEBUG 2019-07-15 13:51:46,200 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-07-15 13:51:46,299 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-07-15 13:51:46,353 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GraphQl.Web.Host.Startup.GraphQlWebHostModule, GraphQl.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:51:46,355 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GraphQl.GraphQlWebCoreModule, GraphQl.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:51:46,355 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GraphQl.GraphQlApplicationModule, GraphQl.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:51:46,355 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GraphQl.GraphQlCoreModule, GraphQl.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:51:46,356 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:51:46,356 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:51:46,356 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:51:46,356 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:51:46,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GraphQl.EntityFrameworkCore.GraphQlEntityFrameworkModule, GraphQl.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:51:46,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:51:46,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:51:46,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:51:46,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:51:46,358 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:51:46,358 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:51:46,360 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-07-15 13:51:46,518 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-15 13:51:46,519 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-15 13:51:46,519 [1    ] o.Configuration.LanguageManagementConfig - Converted GraphQl (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-15 13:51:46,519 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-15 13:51:47,113 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: GraphQl.EntityFrameworkCore.GraphQlDbContext, GraphQl.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:51:48,328 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-07-15 13:51:48,372 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-07-15 13:51:48,390 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-07-15 13:51:48,416 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: GraphQl
+DEBUG 2019-07-15 13:51:48,423 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-07-15 13:51:48,631 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-07-15 13:51:48,677 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-07-15 13:51:48,677 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-07-15 13:51:48,682 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Users.Dto.CreateUserDto
+DEBUG 2019-07-15 13:51:48,683 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Users.Dto.UserDto
+DEBUG 2019-07-15 13:51:48,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-07-15 13:51:48,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-07-15 13:51:48,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Roles.Dto.CreateRoleDto
+DEBUG 2019-07-15 13:51:48,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Roles.Dto.PermissionDto
+DEBUG 2019-07-15 13:51:48,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Roles.Dto.RoleDto
+DEBUG 2019-07-15 13:51:48,685 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-07-15 13:51:48,685 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.MultiTenancy.Dto.TenantDto
+INFO  2019-07-15 13:51:52,241 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-07-15 13:51:57,427 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/GraphQL  
+INFO  2019-07-15 13:51:57,963 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "get", controller = "GraphQL", area = ""}. Executing action GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get (GraphQl.Web.Host)
+INFO  2019-07-15 13:51:57,965 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action GraphQl.Web.Host.Controllers.HomeController.Index (GraphQl.Web.Host)
+INFO  2019-07-15 13:51:59,515 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get (GraphQl.Web.Host) - Validation state: Valid
+INFO  2019-07-15 13:51:59,742 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/graphql application/json; charset=utf-8 209
+INFO  2019-07-15 13:52:00,211 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method GraphQl.Web.Host.Controllers.HomeController.Index (GraphQl.Web.Host) - Validation state: Valid
+INFO  2019-07-15 13:52:00,218 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method GraphQl.Web.Host.Controllers.HomeController.Index (GraphQl.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 1.7753ms.
+ERROR 2019-07-15 13:52:00,299 [10   ] nsports.AspNetCore.GraphQLHttpMiddleware - GraphQL execution error(s): GraphQL.Validation.ValidationError: Cannot query field "email" on type "UserSearchViewType".
+INFO  2019-07-15 13:52:00,359 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 617.4826ms 200 application/json
+INFO  2019-07-15 13:52:00,416 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-07-15 13:52:00,426 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action GraphQl.Web.Host.Controllers.HomeController.Index (GraphQl.Web.Host) in 2455.7281ms
+INFO  2019-07-15 13:52:00,435 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8201.6522ms 0 
+ERROR 2019-07-15 13:52:00,650 [13   ] Mvc.ExceptionHandling.AbpExceptionFilter - Cannot perform runtime binding on a null reference
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at GraphQL.Common.Response.GraphQLResponse.GetDataFieldAs[Type](String fieldName)
+   at GraphQl.Web.Host.GraphQLs.consumer.OwnerConsumer.GetAllItems() in D:\Source\Repos\GraphQl\4.6.0\aspnet-core\src\GraphQl.Web.Host\GraphQLs\consumer\OwnerConsumer.cs:line 30
+   at GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get() in D:\Source\Repos\GraphQl\4.6.0\aspnet-core\src\GraphQl.Web.Host\GraphQLs\Controller\GraphQLController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-07-15 13:52:00,657 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get (GraphQl.Web.Host) in 2687.4558ms
+ERROR 2019-07-15 13:52:00,868 [13   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLO90NFJ29US", Request id "0HLO90NFJ29US:00000001": An unhandled exception was thrown by the application.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object , String )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at GraphQL.Common.Response.GraphQLResponse.GetDataFieldAs[Type](String fieldName)
+   at GraphQl.Web.Host.GraphQLs.consumer.OwnerConsumer.GetAllItems() in D:\Source\Repos\GraphQl\4.6.0\aspnet-core\src\GraphQl.Web.Host\GraphQLs\consumer\OwnerConsumer.cs:line 30
+   at GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get() in D:\Source\Repos\GraphQl\4.6.0\aspnet-core\src\GraphQl.Web.Host\GraphQLs\Controller\GraphQLController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Security\AbpSecurityHeadersMiddleware.cs:line 26
+   at GraphQL.Server.Transports.AspNetCore.GraphQLHttpMiddleware`1.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+INFO  2019-07-15 13:52:00,878 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3452.0618ms 500 
+INFO  2019-07-15 13:52:29,889 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/GraphQL  
+INFO  2019-07-15 13:52:29,901 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "get", controller = "GraphQL", area = ""}. Executing action GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get (GraphQl.Web.Host)
+INFO  2019-07-15 13:52:29,906 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get (GraphQl.Web.Host) - Validation state: Valid
+INFO  2019-07-15 13:52:29,928 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/graphql application/json; charset=utf-8 209
+ERROR 2019-07-15 13:52:29,934 [6    ] nsports.AspNetCore.GraphQLHttpMiddleware - GraphQL execution error(s): GraphQL.Validation.ValidationError: Cannot query field "email" on type "UserSearchViewType".
+INFO  2019-07-15 13:52:29,937 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.953ms 200 application/json
+DEBUG 2019-07-15 13:53:03,862 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-07-15 13:53:03,961 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-07-15 13:53:04,014 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GraphQl.Web.Host.Startup.GraphQlWebHostModule, GraphQl.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:53:04,016 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GraphQl.GraphQlWebCoreModule, GraphQl.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:53:04,016 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GraphQl.GraphQlApplicationModule, GraphQl.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:53:04,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GraphQl.GraphQlCoreModule, GraphQl.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:53:04,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:53:04,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:53:04,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:53:04,018 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:53:04,018 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GraphQl.EntityFrameworkCore.GraphQlEntityFrameworkModule, GraphQl.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:53:04,018 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:53:04,018 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:53:04,019 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:53:04,019 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:53:04,019 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:53:04,019 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:53:04,022 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-07-15 13:53:04,139 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-15 13:53:04,140 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-15 13:53:04,140 [1    ] o.Configuration.LanguageManagementConfig - Converted GraphQl (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-15 13:53:04,140 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-15 13:53:04,774 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: GraphQl.EntityFrameworkCore.GraphQlDbContext, GraphQl.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:53:06,049 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-07-15 13:53:06,102 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-07-15 13:53:06,138 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-07-15 13:53:06,147 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: GraphQl
+DEBUG 2019-07-15 13:53:06,156 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-07-15 13:53:06,339 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-07-15 13:53:06,385 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-07-15 13:53:06,385 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-07-15 13:53:06,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Users.Dto.CreateUserDto
+DEBUG 2019-07-15 13:53:06,394 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Users.Dto.UserDto
+DEBUG 2019-07-15 13:53:06,394 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-07-15 13:53:06,395 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-07-15 13:53:06,395 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Roles.Dto.CreateRoleDto
+DEBUG 2019-07-15 13:53:06,395 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Roles.Dto.PermissionDto
+DEBUG 2019-07-15 13:53:06,395 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Roles.Dto.RoleDto
+DEBUG 2019-07-15 13:53:06,395 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-07-15 13:53:06,396 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.MultiTenancy.Dto.TenantDto
+INFO  2019-07-15 13:53:09,900 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/GraphQL  
+INFO  2019-07-15 13:53:10,218 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-07-15 13:53:14,972 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action GraphQl.Web.Host.Controllers.HomeController.Index (GraphQl.Web.Host)
+INFO  2019-07-15 13:53:14,974 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "get", controller = "GraphQL", area = ""}. Executing action GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get (GraphQl.Web.Host)
+INFO  2019-07-15 13:53:16,397 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get (GraphQl.Web.Host) - Validation state: Valid
+INFO  2019-07-15 13:53:16,644 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/graphql application/json; charset=utf-8 216
+INFO  2019-07-15 13:53:17,130 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method GraphQl.Web.Host.Controllers.HomeController.Index (GraphQl.Web.Host) - Validation state: Valid
+INFO  2019-07-15 13:53:17,140 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method GraphQl.Web.Host.Controllers.HomeController.Index (GraphQl.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.3165ms.
+ERROR 2019-07-15 13:53:19,169 [9    ] nsports.AspNetCore.GraphQLHttpMiddleware - GraphQL execution error(s): GraphQL.ExecutionError: Error trying to resolve userSearchViewList. ---> System.ObjectDisposedException: Cannot access a disposed object. A common cause of this error is disposing a context that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling Dispose() on the context, or wrapping the context in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'GraphQlDbContext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.IEnumerable.GetEnumerator()
+   at GraphQL.Execution.ExecutionStrategy.SetArrayItemNodes(ExecutionContext context, ArrayExecutionNode parent)
+   at GraphQL.Execution.ExecutionStrategy.ExecuteNodeAsync(ExecutionContext context, ExecutionNode node)
+   --- End of inner exception stack trace ---
+INFO  2019-07-15 13:53:19,192 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-07-15 13:53:19,203 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action GraphQl.Web.Host.Controllers.HomeController.Index (GraphQl.Web.Host) in 4222.8733ms
+INFO  2019-07-15 13:53:19,221 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9002.0284ms 0 
+INFO  2019-07-15 13:53:19,229 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2586.0862ms 200 application/json
+ERROR 2019-07-15 13:53:28,501 [9    ] Mvc.ExceptionHandling.AbpExceptionFilter - Cannot perform runtime binding on a null reference
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at GraphQL.Common.Response.GraphQLResponse.GetDataFieldAs[Type](String fieldName)
+   at GraphQl.Web.Host.GraphQLs.consumer.OwnerConsumer.GetAllItems() in D:\Source\Repos\GraphQl\4.6.0\aspnet-core\src\GraphQl.Web.Host\GraphQLs\consumer\OwnerConsumer.cs:line 30
+   at GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get() in D:\Source\Repos\GraphQl\4.6.0\aspnet-core\src\GraphQl.Web.Host\GraphQLs\Controller\GraphQLController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-07-15 13:53:28,508 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get (GraphQl.Web.Host) in 13529.016ms
+ERROR 2019-07-15 13:53:28,691 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLO90O6OA461", Request id "0HLO90O6OA461:00000001": An unhandled exception was thrown by the application.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at GraphQL.Common.Response.GraphQLResponse.GetDataFieldAs[Type](String fieldName)
+   at GraphQl.Web.Host.GraphQLs.consumer.OwnerConsumer.GetAllItems() in D:\Source\Repos\GraphQl\4.6.0\aspnet-core\src\GraphQl.Web.Host\GraphQLs\consumer\OwnerConsumer.cs:line 30
+   at GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get() in D:\Source\Repos\GraphQl\4.6.0\aspnet-core\src\GraphQl.Web.Host\GraphQLs\Controller\GraphQLController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Security\AbpSecurityHeadersMiddleware.cs:line 26
+   at GraphQL.Server.Transports.AspNetCore.GraphQLHttpMiddleware`1.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+INFO  2019-07-15 13:53:28,704 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18808.1584ms 500 
+INFO  2019-07-15 13:53:54,559 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/GraphQL  
+INFO  2019-07-15 13:53:54,580 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "get", controller = "GraphQL", area = ""}. Executing action GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get (GraphQl.Web.Host)
+INFO  2019-07-15 13:53:54,586 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get (GraphQl.Web.Host) - Validation state: Valid
+INFO  2019-07-15 13:53:54,606 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/graphql application/json; charset=utf-8 216
+ERROR 2019-07-15 13:53:59,280 [7    ] nsports.AspNetCore.GraphQLHttpMiddleware - GraphQL execution error(s): GraphQL.ExecutionError: Error trying to resolve userSearchViewList. ---> System.ObjectDisposedException: Cannot access a disposed object. A common cause of this error is disposing a context that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling Dispose() on the context, or wrapping the context in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'GraphQlDbContext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.IEnumerable.GetEnumerator()
+   at GraphQL.Execution.ExecutionStrategy.SetArrayItemNodes(ExecutionContext context, ArrayExecutionNode parent)
+   at GraphQL.Execution.ExecutionStrategy.ExecuteNodeAsync(ExecutionContext context, ExecutionNode node)
+   --- End of inner exception stack trace ---
+INFO  2019-07-15 13:53:59,284 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4677.2862ms 200 application/json
+DEBUG 2019-07-15 13:55:33,540 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-07-15 13:55:33,668 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-07-15 13:55:33,726 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GraphQl.Web.Host.Startup.GraphQlWebHostModule, GraphQl.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:55:33,727 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GraphQl.GraphQlWebCoreModule, GraphQl.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:55:33,728 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GraphQl.GraphQlApplicationModule, GraphQl.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:55:33,728 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GraphQl.GraphQlCoreModule, GraphQl.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:55:33,729 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:55:33,729 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:55:33,730 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:55:33,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:55:33,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GraphQl.EntityFrameworkCore.GraphQlEntityFrameworkModule, GraphQl.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:55:33,732 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:55:33,732 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:55:33,733 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:55:33,733 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:55:33,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:55:33,736 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:55:33,740 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-07-15 13:55:33,866 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-15 13:55:33,867 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-15 13:55:33,868 [1    ] o.Configuration.LanguageManagementConfig - Converted GraphQl (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-15 13:55:33,869 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-07-15 13:55:34,449 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: GraphQl.EntityFrameworkCore.GraphQlDbContext, GraphQl.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-07-15 13:55:35,753 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-07-15 13:55:35,800 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-07-15 13:55:35,817 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-07-15 13:55:35,826 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: GraphQl
+DEBUG 2019-07-15 13:55:35,835 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-07-15 13:55:36,027 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-07-15 13:55:36,076 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-07-15 13:55:36,076 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-07-15 13:55:36,082 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Users.Dto.CreateUserDto
+DEBUG 2019-07-15 13:55:36,083 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Users.Dto.UserDto
+DEBUG 2019-07-15 13:55:36,084 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-07-15 13:55:36,084 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-07-15 13:55:36,085 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Roles.Dto.CreateRoleDto
+DEBUG 2019-07-15 13:55:36,086 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Roles.Dto.PermissionDto
+DEBUG 2019-07-15 13:55:36,086 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.Roles.Dto.RoleDto
+DEBUG 2019-07-15 13:55:36,087 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-07-15 13:55:36,087 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GraphQl.MultiTenancy.Dto.TenantDto
+INFO  2019-07-15 13:55:39,856 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-07-15 13:55:45,267 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/GraphQL  
+INFO  2019-07-15 13:55:45,913 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "get", controller = "GraphQL", area = ""}. Executing action GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get (GraphQl.Web.Host)
+INFO  2019-07-15 13:55:45,915 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action GraphQl.Web.Host.Controllers.HomeController.Index (GraphQl.Web.Host)
+INFO  2019-07-15 13:55:47,715 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get (GraphQl.Web.Host) - Validation state: Valid
+INFO  2019-07-15 13:55:47,983 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/graphql application/json; charset=utf-8 216
+INFO  2019-07-15 13:55:48,484 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method GraphQl.Web.Host.Controllers.HomeController.Index (GraphQl.Web.Host) - Validation state: Valid
+INFO  2019-07-15 13:55:48,493 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method GraphQl.Web.Host.Controllers.HomeController.Index (GraphQl.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 1.9718ms.
+ERROR 2019-07-15 13:55:48,704 [11   ] nsports.AspNetCore.GraphQLHttpMiddleware - GraphQL execution error(s): GraphQL.ExecutionError: Error trying to resolve userSearchViewList. ---> System.ObjectDisposedException: Cannot access a disposed object. A common cause of this error is disposing a context that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling Dispose() on the context, or wrapping the context in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'GraphQlDbContext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.IEnumerable.GetEnumerator()
+   at GraphQL.Execution.ExecutionStrategy.SetArrayItemNodes(ExecutionContext context, ArrayExecutionNode parent)
+   at GraphQL.Execution.ExecutionStrategy.ExecuteNodeAsync(ExecutionContext context, ExecutionNode node)
+   --- End of inner exception stack trace ---
+INFO  2019-07-15 13:55:48,728 [7    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-07-15 13:55:48,742 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action GraphQl.Web.Host.Controllers.HomeController.Index (GraphQl.Web.Host) in 2820.5444ms
+INFO  2019-07-15 13:55:48,777 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 791.3845ms 200 application/json
+INFO  2019-07-15 13:55:48,780 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8931.6347ms 302 
+INFO  2019-07-15 13:55:48,784 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-07-15 13:55:48,801 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.316ms 200 text/html
+ERROR 2019-07-15 13:55:49,111 [6    ] Mvc.ExceptionHandling.AbpExceptionFilter - Cannot perform runtime binding on a null reference
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at GraphQL.Common.Response.GraphQLResponse.GetDataFieldAs[Type](String fieldName)
+   at GraphQl.Web.Host.GraphQLs.consumer.OwnerConsumer.GetAllItems() in D:\Source\Repos\GraphQl\4.6.0\aspnet-core\src\GraphQl.Web.Host\GraphQLs\consumer\OwnerConsumer.cs:line 30
+   at GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get() in D:\Source\Repos\GraphQl\4.6.0\aspnet-core\src\GraphQl.Web.Host\GraphQLs\Controller\GraphQLController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-07-15 13:55:49,123 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get (GraphQl.Web.Host) in 3202.4509ms
+ERROR 2019-07-15 13:55:49,354 [6    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLO90PJE4GDD", Request id "0HLO90PJE4GDD:00000001": An unhandled exception was thrown by the application.
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot perform runtime binding on a null reference
+   at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at GraphQL.Common.Response.GraphQLResponse.GetDataFieldAs[Type](String fieldName)
+   at GraphQl.Web.Host.GraphQLs.consumer.OwnerConsumer.GetAllItems() in D:\Source\Repos\GraphQl\4.6.0\aspnet-core\src\GraphQl.Web.Host\GraphQLs\consumer\OwnerConsumer.cs:line 30
+   at GraphQl.Web.Host.GraphQLs.Controller.GraphQLController.get() in D:\Source\Repos\GraphQl\4.6.0\aspnet-core\src\GraphQl.Web.Host\GraphQLs\Controller\GraphQLController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Security\AbpSecurityHeadersMiddleware.cs:line 26
+   at GraphQL.Server.Transports.AspNetCore.GraphQLHttpMiddleware`1.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+INFO  2019-07-15 13:55:49,370 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4103.546ms 500 
+INFO  2019-07-15 13:55:50,219 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-07-15 13:55:50,404 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 184.6093ms 200 application/json;charset=utf-8
